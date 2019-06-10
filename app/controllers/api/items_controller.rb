@@ -22,6 +22,8 @@ class Api::ItemsController < ApplicationController
   end 
 
   def update
+    @menu.item.update(item_params)
+    render json: @menu
   end 
 
   def destroy
