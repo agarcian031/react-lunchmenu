@@ -7,10 +7,8 @@ import {Container, Header} from 'semantic-ui-react'
 
 class App extends Component {
   state = {
-    menus: [],
-    editing: false, 
-    addingItems: false, 
-    pickedMenu: null, 
+    menus: [], 
+    
   }
 
   componentDidMount() {
@@ -53,6 +51,7 @@ class App extends Component {
     })
   }
 
+  
 
 
   render() {
